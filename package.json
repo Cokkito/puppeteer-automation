@@ -1,0 +1,14 @@
+{
+  "name": "ink",
+  "version": "1.0.0",
+  "description": "Interview challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Jorge Mora",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^13.1.3"
+  }
+}
