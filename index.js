@@ -51,7 +51,7 @@ const setTasks = async (page, taskList) => {
 };
 
 (async () => {
-  const browser = await puppeteer.launch({headless: false});
+  const browser = await puppeteer.launch({headless: false, defaultViewport: null, args: ['--start-maximized'] });
   const page = await browser.newPage();
   await page.goto('https://randomtodolistgenerator.herokuapp.com/library');
   await page.waitForSelector('.page-item');
